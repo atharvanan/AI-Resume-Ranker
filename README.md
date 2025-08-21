@@ -139,7 +139,7 @@ npm start
 Contributions are welcome! Feel free to fork, submit issues, or create PRs.
 
 ---
-
+## 📝 License
 This project is licensed under the MIT License; see the LICENSE file for details.
 
 ---
