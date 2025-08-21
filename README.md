@@ -140,5 +140,9 @@ Contributions are welcome! Feel free to fork, submit issues, or create PRs.
 
 ---
 
+This project is licensed under the MIT License; see the LICENSE file for details.
+
+---
+
 ## 👨‍💻 Author
 Built by Atharva Nandurkar (https://github.com/atharvanan) 🚀
