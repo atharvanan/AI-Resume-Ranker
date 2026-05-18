@@ -37,7 +37,8 @@ export default function UploadPage() {
     form.append('jobDesc', jd);
 
     try {
-      const res = await axios.post('http://localhost:5000/api/resume/analyze', form, {
+      const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5000';
+      const res = await axios.post(`${apiUrl}/api/resume/analyze`, form, {
         headers: { 'Content-Type': 'multipart/form-data' },
         timeout: 60000,
       });
